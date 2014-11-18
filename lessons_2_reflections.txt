@@ -16,3 +16,11 @@ A situation where branches can be used is when you want to add an experimental f
 How do the diagrams help you visualize the branch structure?
 
 The diagrams help me see the different reachability and a back log of sorts of commits. 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result in merging two branches together is getting all the code that was added or deleted from the previous master into a new master or head. It is represented on the diagram as separate branches to show the difference between the current master and the branches in production. Then the two branches are shown coming together into one new main master showing that the two separate branches now make the new master.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros of git automatic merging are having the most up-to-date code in your branch to test what every it is you are working on with production code. Cons are you may not want to accidentally merge a branch into master which could be done if not carful.
